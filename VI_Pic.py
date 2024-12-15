@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-image = cv2.imread('img6.jpg')
+image = cv2.imread('img5.jpg')
 
 def alpha_trimmed_mean_filter(image, kernel_size, alpha):
     pad = kernel_size // 2
