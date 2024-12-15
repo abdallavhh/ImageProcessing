@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the image
-image_path = 'man.bmp'  
+image_path = 'img3.bmp'  
 image = cv2.imread(image_path)
 
 
