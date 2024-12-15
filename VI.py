@@ -31,7 +31,7 @@ def adaptive_median_filter(image, max_kernel_size):
     return result.astype(np.uint8)
 
 # Load the image
-image_path = 'img7.jpg'  
+image_path = 'img6.jpg'  
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
 # Apply adaptive median filter
